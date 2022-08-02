@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&family=Montserrat:wght@300;500&family=Outfit:wght@300;400;600&family=Roboto:ital,wght@0,300;0,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+a{
+    text-decoration: none;
+    
+}
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.main-header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 10vh;
+    border-bottom: 2px solid #CBD5E1;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    gap: 20px;
+    background-color: white;
+}
+.main-header >img{
+    width: 80px;
+    height: inherit;
+}
+.title{
+    display: flex;
+    gap: 5px;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 15vh;
+    padding: 20px;
+    background-color: #F0F9FF;
+}
+
+footer>a>button,
+.return-btn{
+    color: white;
+    border-radius: 8px;
+    padding: 20px 35px;
+    font-size: 1.5rem;
+    background-color: #F87171;
+    border: 0;
+    cursor: pointer
+}
+.return-btn-end{
+    background-color: #047857;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    border-radius: 12px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: 0;
+
+}
+.return-btn-end:hover{
+    background-color: #A8A29E;
+}
+.save-btn{
+    background-color: #0EA5E9;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    border-radius: 12px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: 0;
+
+}
+
+.save-btn:hover{
+    background-color: #D1D5DB;
+
+}
+
+.end-game-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .9);
+    padding: 20px;
+    color: whitesmoke;
+    gap: 25px;
+}
+
+ .new-el{
+    background-color: #E5E7EB;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.invisible{
+    display: none;
+}
+
+.mark::before,
+.mark::after{
+    content: '';
+    position: absolute;
+    width:  7px;
+    height: 70px;
+    display: block;
+    top: 0px;
+    background-color: red;
+}
+.mark::before{
+    transform: rotate(45deg);
+}
+.mark::after{
+    transform: rotate(-45deg);
+}
+
