@@ -63,7 +63,7 @@ function Leaderboard({ timesData }) {
       <header className="filterBy" onClick={e => filterByLevel(e)}>
         <h3>Filter by Level:</h3>
         <button type="button" id="0">
-          Show all
+          Show Top 10
         </button>
         <button type="button" id="1">
           Level 1
