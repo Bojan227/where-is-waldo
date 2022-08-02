@@ -1,0 +1,30 @@
+.levels-container{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    gap: 45px;
+    padding: 45px;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+.card>*{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #F1F5F9;
+}
+
+.icons-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-char>div{
+    display: flex;
+    gap: 10px;
+}
+.card-char>div>div{
+    display: flex;
+    flex-direction: column;
+}
