@@ -20,7 +20,7 @@ app.use(express.static('dist'));
 app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use('/where-is-waldo', waldoRoutes);
+app.use('/', waldoRoutes);
 
 app.listen(process.env.PORT || PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
