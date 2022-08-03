@@ -1,8 +1,8 @@
 {
   "name": "waldo",
   "version": "1.0.0",
+  "homepage": "https://Bojan227.github.io/where-is-waldo",
   "description": "",
-  "homepage": "./",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,9 @@
     "build": "webpack",
     "serve": "webpack serve",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -45,6 +47,7 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "nodemon": "^2.0.19",
     "webpack": "^5.73.0",
