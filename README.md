@@ -10,5 +10,5 @@ Can you find Waldo and his friend and become Waldo expert in all of the levels o
 **Tech used:** CSS, JavaScript, React, React-router, Node, Express, MongoDB
 
 ## Lessons Learned:
-Learned how to perform CRUD operations, storing and retrieving the data from MongoDB and and sending the correct data to the client as required, used MVC design patter in order to decouple the user interface, data and application logic.
+Learned how to perform CRUD operations, storing and retrieving the data from MongoDB and sending the correct data to the client as required, used MVC design pattern in order to decouple the user interface, data and application logic.
 
